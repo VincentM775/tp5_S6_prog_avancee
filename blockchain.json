@@ -1,0 +1,68 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-02-26T11:31:32.326965800Z",
+    "previousHash": "0",
+    "hash": "6385f6df7d8310ce1b5ac743a83eb403432a391725154801a1246d22c35a509b",
+    "eventId": "GENESIS",
+    "artist": "N/A",
+    "status": "INIT",
+    "owner": "SYSTEM",
+    "nonce": 0
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-02-26T11:31:32.326965800Z",
+    "previousHash": "6385f6df7d8310ce1b5ac743a83eb403432a391725154801a1246d22c35a509b",
+    "hash": "0053cb95530e7333ae8045eb4eda11933a51488059c887207c8821021f08d993",
+    "eventId": "EVT-001",
+    "artist": "Beyoncé",
+    "status": "ACHETE",
+    "owner": "Alice",
+    "nonce": 176
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-02-26T11:31:32.332740900Z",
+    "previousHash": "0053cb95530e7333ae8045eb4eda11933a51488059c887207c8821021f08d993",
+    "hash": "0059817fe330d9a9b374e35db387fa6ad709c409c0f30ddf7ab06cce84038217",
+    "eventId": "EVT-001",
+    "artist": "Beyoncé",
+    "status": "REVENDU",
+    "owner": "Bob",
+    "nonce": 63
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-02-26T11:31:32.333809400Z",
+    "previousHash": "0059817fe330d9a9b374e35db387fa6ad709c409c0f30ddf7ab06cce84038217",
+    "hash": "004cc5787b0144f0037b6d7bdbde3db69daa809c07c3202599ab66ebb4aae34a",
+    "eventId": "EVT-001",
+    "artist": "Beyoncé",
+    "status": "REVENDU",
+    "owner": "Charlie",
+    "nonce": 590
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-02-26T11:31:32.342034300Z",
+    "previousHash": "004cc5787b0144f0037b6d7bdbde3db69daa809c07c3202599ab66ebb4aae34a",
+    "hash": "005892a65670d906a07bb7b1e444aec62381fbea5d9139ec4a2b43d8ce44ebfd",
+    "eventId": "EVT-001",
+    "artist": "Beyoncé",
+    "status": "UTILISE",
+    "owner": "Charlie",
+    "nonce": 710
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-02-26T11:31:32.348548200Z",
+    "previousHash": "005892a65670d906a07bb7b1e444aec62381fbea5d9139ec4a2b43d8ce44ebfd",
+    "hash": "002edc4be5c120205ff4f3e60bc660edf9b91d76656c7c90828c20cf0e74bcf9",
+    "eventId": "EVT-001",
+    "artist": "Beyoncé",
+    "status": "INVALIDE",
+    "owner": "Charlie",
+    "nonce": 12
+  }
+]

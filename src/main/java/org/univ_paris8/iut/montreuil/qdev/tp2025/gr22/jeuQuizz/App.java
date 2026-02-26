@@ -24,7 +24,7 @@ public class App {
 
     private static void demoProofOfWork() {
         System.out.println("--- Proof of Work (difficulté=3) ---");
-        ProofOfWork pow = new ProofOfWork(7);
+        ProofOfWork pow = new ProofOfWork(3);
         Blockchain bc = new Blockchain(pow);
         bc.addBlock("EVT-POW", "Daft Punk", "ACHETE", "Alice");
         System.out.println("Chaîne valide : " + bc.isChainValid());
